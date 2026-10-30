@@ -85,7 +85,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onOpenDemoGuide }) => 
 
           <div className="mt-4 flex flex-col items-center justify-center gap-1.5 text-xs text-slate-600">
             <div className="flex flex-wrap items-center justify-center gap-2">
-              <span className="font-bold text-slate-800">Giáo viên: Diêm Nhật Minh</span>
+              <span className="font-bold text-slate-800">Giáo viên: Cô Diêm Nhật Minh</span>
               <span>•</span>
               <span className="font-bold text-blue-700 font-mono">ĐT: 0917014180</span>
               <span>•</span>
@@ -246,7 +246,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onOpenDemoGuide }) => 
                 Góc Học Tập Của Em
               </h3>
               <p className="text-xs text-slate-500 mt-1">
-                Nhập Mã học tập do Thầy Diêm Nhật Minh cấp để vào không gian cá nhân.
+                Nhập Mã học tập do Cô Diêm Nhật Minh cấp để vào không gian cá nhân.
               </p>
             </div>
 
@@ -331,7 +331,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onOpenDemoGuide }) => 
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
           <div className="flex items-center gap-2 font-medium">
             <Compass className="w-4 h-4 text-blue-600" />
-            <span>AI LA BÀN 5/3 • Bản quyền đề tài © 2026 Thầy Diêm Nhật Minh (ĐT: 0917014180)</span>
+            <span>AI LA BÀN 5/3 • Bản quyền đề tài © 2026 Cô Diêm Nhật Minh (ĐT: 0917014180)</span>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-2 text-slate-400 text-[11px]">
             <span>Trường Tiểu học Kim Đồng (207 Nguyễn Trung Trực, P. Rạch Giá, T. An Giang)</span>

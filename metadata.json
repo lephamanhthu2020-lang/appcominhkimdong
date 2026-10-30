@@ -1,6 +1,6 @@
 {
   "name": "AI LA BÀN 5/3 – Mỗi Học Sinh Một Hành Trình Tiến Bộ",
-  "description": "Ứng dụng AI giáo dục cá nhân hóa học tập cho học sinh lớp 5 theo GDPT 2018 - GV: Diêm Nhật Minh, Trường Tiểu học Kim Đồng (207 Nguyễn Trung Trực, P. Rạch Giá, T. An Giang - ĐT: 0917014180)",
+  "description": "Ứng dụng AI giáo dục cá nhân hóa học tập cho học sinh lớp 5 theo GDPT 2018 - GV: Cô Diêm Nhật Minh, Trường Tiểu học Kim Đồng (207 Nguyễn Trung Trực, P. Rạch Giá, T. An Giang - ĐT: 0917014180)",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

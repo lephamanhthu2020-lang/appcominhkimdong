@@ -84,12 +84,12 @@ export const Header: React.FC<HeaderProps> = ({ onOpenDemoGuide }) => {
           {userRole === 'teacher' && (
             <div className="flex items-center gap-2 pl-2 border-l border-slate-200">
               <div
-                title="Giáo viên: Diêm Nhật Minh - ĐT: 0917014180 - TH Kim Đồng, 207 Nguyễn Trung Trực, P. Rạch Giá, T. An Giang"
+                title="Giáo viên: Cô Diêm Nhật Minh - ĐT: 0917014180 - TH Kim Đồng, 207 Nguyễn Trung Trực, P. Rạch Giá, T. An Giang"
                 className="flex items-center gap-2 bg-blue-50 text-blue-900 px-3 py-1.5 rounded-xl border border-blue-100"
               >
                 <GraduationCap className="w-4 h-4 text-blue-600 shrink-0" />
                 <div className="text-left text-xs">
-                  <span className="font-bold block leading-none">Thầy Diêm Nhật Minh</span>
+                  <span className="font-bold block leading-none">Cô Diêm Nhật Minh</span>
                   <span className="text-[10px] text-blue-600 leading-none">GVCN 5/3 • 0917014180</span>
                 </div>
               </div>

@@ -15,7 +15,7 @@ import {
 export const SettingsTab: React.FC = () => {
   const { isDemoMode, resetDemoData, clearRealData } = useApp();
 
-  const [teacherName, setTeacherName] = useState('Diêm Nhật Minh');
+  const [teacherName, setTeacherName] = useState('Cô Diêm Nhật Minh');
   const [phoneNumber, setPhoneNumber] = useState('0917014180');
   const [schoolName, setSchoolName] = useState('Trường Tiểu học Kim Đồng');
   const [schoolAddress, setSchoolAddress] = useState('207 Nguyễn Trung Trực, phường Rạch Giá, tỉnh An Giang');

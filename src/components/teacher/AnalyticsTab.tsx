@@ -130,7 +130,7 @@ export const AnalyticsTab: React.FC = () => {
           </div>
 
           <div className="p-3 bg-blue-50 rounded-xl border border-blue-200 text-xs text-blue-800 font-medium">
-            📌 <strong>Giải pháp của thầy Diêm Nhật Minh:</strong> Hướng dẫn học sinh dùng bút chì kẻ cột phân vị hàng đơn vị và dấu phẩy trước khi làm bài.
+            📌 <strong>Giải pháp của cô Diêm Nhật Minh:</strong> Hướng dẫn học sinh dùng bút chì kẻ cột phân vị hàng đơn vị và dấu phẩy trước khi làm bài.
           </div>
         </div>
       </div>

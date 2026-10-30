@@ -198,7 +198,7 @@ export const QuestionBankTab: React.FC = () => {
             </span>
           </div>
           <p className="text-xs text-slate-500 mt-1">
-            Kho học liệu chuẩn GDPT 2018 dành cho lớp 5 – Được Thầy Diêm Nhật Minh xác nhận tính sư phạm
+            Kho học liệu chuẩn GDPT 2018 dành cho lớp 5 – Được Cô Diêm Nhật Minh xác nhận tính sư phạm
           </p>
         </div>
 
@@ -376,7 +376,7 @@ export const QuestionBankTab: React.FC = () => {
                 <div>
                   <h3 className="text-base font-bold">Thêm Bài Tập Mới Vào Ngân Hàng</h3>
                   <p className="text-xs text-blue-100">
-                    Lớp 5/3 • TH Kim Đồng (207 Nguyễn Trung Trực, P. Rạch Giá, An Giang) • GV: Diêm Nhật Minh
+                    Lớp 5/3 • TH Kim Đồng (207 Nguyễn Trung Trực, P. Rạch Giá, An Giang) • GV: Cô Diêm Nhật Minh
                   </p>
                 </div>
               </div>

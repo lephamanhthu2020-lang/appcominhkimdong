@@ -91,7 +91,7 @@ export const EvidenceTab: React.FC = () => {
             THÔNG TIN TÁC GIẢ SÁNG KIẾN DỰ THI 2026
           </span>
           <div className="text-sm font-bold text-slate-900 mt-0.5">
-            Giáo viên: Diêm Nhật Minh • SĐT: <span className="font-mono text-blue-700 font-bold">0917014180</span>
+            Giáo viên: Cô Diêm Nhật Minh • SĐT: <span className="font-mono text-blue-700 font-bold">0917014180</span>
           </div>
           <div className="text-slate-600 mt-0.5">
             Trường: Tiểu học Kim Đồng • Lớp phụ trách: 5/3

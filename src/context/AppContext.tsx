@@ -59,31 +59,43 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [isDemoMode, setIsDemoMode] = useState<boolean>(true);
   const [hasServerAI, setHasServerAI] = useState<boolean>(false);
 
+  // Helper to sanitize cached strings from previous versions
+  const loadSanitized = <T,>(key: string, fallback: T): T => {
+    try {
+      const saved = localStorage.getItem(key);
+      if (!saved) return fallback;
+      const sanitized = saved
+        .replaceAll('Thầy Diêm Nhật Minh', 'Cô Diêm Nhật Minh')
+        .replaceAll('thầy Diêm Nhật Minh', 'cô Diêm Nhật Minh')
+        .replaceAll('Thầy Minh', 'Cô Minh')
+        .replaceAll('thầy Minh', 'cô Minh')
+        .replaceAll('NỘP BÀI LÊN THẦY MINH', 'NỘP BÀI LÊN CÔ MINH');
+      return JSON.parse(sanitized);
+    } catch {
+      return fallback;
+    }
+  };
+
   // Core Data States
-  const [students, setStudents] = useState<Student[]>(() => {
-    const saved = localStorage.getItem('ai_laban_students');
-    return saved ? JSON.parse(saved) : DEMO_STUDENTS;
-  });
+  const [students, setStudents] = useState<Student[]>(() =>
+    loadSanitized('ai_laban_students', DEMO_STUDENTS)
+  );
 
-  const [questions, setQuestions] = useState<Question[]>(() => {
-    const saved = localStorage.getItem('ai_laban_questions');
-    return saved ? JSON.parse(saved) : INITIAL_QUESTIONS;
-  });
+  const [questions, setQuestions] = useState<Question[]>(() =>
+    loadSanitized('ai_laban_questions', INITIAL_QUESTIONS)
+  );
 
-  const [assignments, setAssignments] = useState<Assignment[]>(() => {
-    const saved = localStorage.getItem('ai_laban_assignments');
-    return saved ? JSON.parse(saved) : DEMO_ASSIGNMENTS;
-  });
+  const [assignments, setAssignments] = useState<Assignment[]>(() =>
+    loadSanitized('ai_laban_assignments', DEMO_ASSIGNMENTS)
+  );
 
-  const [submissions, setSubmissions] = useState<Submission[]>(() => {
-    const saved = localStorage.getItem('ai_laban_submissions');
-    return saved ? JSON.parse(saved) : DEMO_SUBMISSIONS;
-  });
+  const [submissions, setSubmissions] = useState<Submission[]>(() =>
+    loadSanitized('ai_laban_submissions', DEMO_SUBMISSIONS)
+  );
 
-  const [evidenceList, setEvidenceList] = useState<CompetitionEvidence[]>(() => {
-    const saved = localStorage.getItem('ai_laban_evidence');
-    return saved ? JSON.parse(saved) : DEMO_EVIDENCE_LIST;
-  });
+  const [evidenceList, setEvidenceList] = useState<CompetitionEvidence[]>(() =>
+    loadSanitized('ai_laban_evidence', DEMO_EVIDENCE_LIST)
+  );
 
   // Check backend server status
   useEffect(() => {

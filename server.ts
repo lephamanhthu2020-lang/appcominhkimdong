@@ -33,7 +33,7 @@ app.get('/api/status', (_req: Request, res: Response) => {
   res.json({
     status: 'ok',
     hasGeminiKey: !!apiKey,
-    teacher: 'Diêm Nhật Minh',
+    teacher: 'Cô Diêm Nhật Minh',
     school: 'Tiểu học Kim Đồng',
     address: '207 Nguyễn Trung Trực, phường Rạch Giá, tỉnh An Giang',
     phone: '0917014180',
@@ -217,7 +217,7 @@ app.post('/api/ai/chat', async (req: Request, res: Response) => {
       });
     }
 
-    const systemInstruction = `Bạn là "BẠN LA BÀN AI" - Trợ lý học tập thông minh, thân thiện của Lớp 5/3, Trường Tiểu học Kim Đồng (GVCN: Thầy Diêm Nhật Minh).
+    const systemInstruction = `Bạn là "BẠN LA BÀN AI" - Trợ lý học tập thông minh, thân thiện của Lớp 5/3, Trường Tiểu học Kim Đồng (GVCN: Cô Diêm Nhật Minh).
 Tính cách:
 - Biểu tượng là chiếc la bàn hoạt hình vui vẻ, cầm bút chì hoặc kính lúp nhỏ.
 - Ngôn ngữ: 100% tiếng Việt chuẩn mực, xưng "Bạn La Bàn", gọi học sinh là "bạn" hoặc "em".
@@ -231,7 +231,7 @@ QUY TẮC SƯ PHẠM VÀ AN TOÀN TRẺ EM BẮT BUỘC:
 3. Khi học sinh trả lời chưa đúng, nhẹ nhàng chỉ ra điểm cần xem lại mà không chê bai.
 4. Chỉ trao đổi kiến thức học tập lớp 5 (Toán, Tiếng Việt, Khoa học, Lịch sử & Địa lí, Đạo đức, Tin học, Công nghệ).
 5. Tuyệt đối không hỏi hay lưu trữ thông tin cá nhân nhạy cảm của học sinh.
-6. Khi học sinh gặp câu hỏi quá khó hoặc bối rối, khuyên học sinh hỏi thêm thầy Diêm Nhật Minh.`;
+6. Khi học sinh gặp câu hỏi quá khó hoặc bối rối, khuyên học sinh hỏi thêm cô Diêm Nhật Minh.`;
 
     const formattedContents = (messages || []).map((m: any) => ({
       role: m.role === 'user' ? 'user' : 'model',
@@ -277,7 +277,7 @@ app.post('/api/ai/teacher-insights', async (req: Request, res: Response) => {
       });
     }
 
-    const prompt = `Bạn là cố vấn sư phạm AI hỗ trợ Thầy Diêm Nhật Minh - GVCN Lớp 5/3 Trường Tiểu học Kim Đồng.
+    const prompt = `Bạn là cố vấn sư phạm AI hỗ trợ Cô Diêm Nhật Minh - GVCN Lớp 5/3 Trường Tiểu học Kim Đồng.
 Dựa trên số liệu thực tế của lớp học:
 Chủ đề: ${topic || 'Toán học lớp 5'}
 Số liệu lớp: ${JSON.stringify(classData)}

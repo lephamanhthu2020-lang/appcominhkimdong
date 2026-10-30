@@ -50,7 +50,7 @@ export const TeacherLayout: React.FC<TeacherLayoutProps> = ({ children }) => {
               <span className="text-[11px] font-bold text-blue-900 uppercase tracking-wider">TRUNG TÂM GIÁO VIÊN</span>
             </div>
             <div className="text-xs font-bold text-slate-800 mt-1">Lớp 5/3 • TH Kim Đồng</div>
-            <div className="text-[11px] font-semibold text-blue-700">GVCN: Diêm Nhật Minh • 0917014180</div>
+            <div className="text-[11px] font-semibold text-blue-700">GVCN: Cô Diêm Nhật Minh • 0917014180</div>
             <div className="text-[10px] text-slate-500 truncate" title="207 Nguyễn Trung Trực, P. Rạch Giá, T. An Giang">
               207 Nguyễn Trung Trực, P. Rạch Giá, An Giang
             </div>

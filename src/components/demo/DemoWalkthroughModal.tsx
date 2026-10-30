@@ -82,7 +82,7 @@ export const DemoWalkthroughModal: React.FC<DemoWalkthroughModalProps> = ({
     {
       step: 5,
       title: 'Giáo viên phê duyệt & Tùy biến',
-      desc: 'Thầy Diêm Nhật Minh kiểm tra sư phạm, điều chỉnh hoặc phê duyệt nhiệm vụ do AI gợi ý trước khi giao.',
+      desc: 'Cô Diêm Nhật Minh kiểm tra sư phạm, điều chỉnh hoặc phê duyệt nhiệm vụ do AI gợi ý trước khi giao.',
       actionLabel: 'Phê Duyệt Lộ Trình',
       action: () => {
         loginAsTeacher();

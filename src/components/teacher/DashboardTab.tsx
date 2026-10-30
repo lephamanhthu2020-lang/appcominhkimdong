@@ -167,7 +167,7 @@ export const DashboardTab: React.FC = () => {
               Bảng Điều Khiển Lớp 5/3
             </h1>
             <p className="text-sm text-blue-100/90 mt-1 max-w-xl">
-              Giáo viên chủ nhiệm: <strong className="text-white">Thầy Diêm Nhật Minh (ĐT: 0917014180)</strong>. Theo dõi mức độ nắm vững Yêu cầu cần đạt (GDPT 2018) và phân luồng hỗ trợ từng học sinh.
+              Giáo viên chủ nhiệm: <strong className="text-white">Cô Diêm Nhật Minh (ĐT: 0917014180)</strong>. Theo dõi mức độ nắm vững Yêu cầu cần đạt (GDPT 2018) và phân luồng hỗ trợ từng học sinh.
             </p>
           </div>
 
@@ -262,7 +262,7 @@ export const DashboardTab: React.FC = () => {
                 Khuyến Nghị Sư Phạm AI Dựa Trên Dữ Liệu Lớp 5/3
               </h3>
               <p className="text-xs text-slate-500">
-                Phân tích đối sánh các tiêu chí YCCĐ thực tế – Được kiểm duyệt bởi GV Diêm Nhật Minh
+                Phân tích đối sánh các tiêu chí YCCĐ thực tế – Được kiểm duyệt bởi Cô Diêm Nhật Minh
               </p>
             </div>
           </div>

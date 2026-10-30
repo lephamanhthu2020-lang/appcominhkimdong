@@ -115,7 +115,7 @@ export const StudentPortal: React.FC = () => {
       isDemo: isDemoMode,
       feedback:
         percentage >= 80
-          ? 'Thầy Diêm Nhật Minh khen ngợi em đã hoàn thành rất tốt!'
+          ? 'Cô Diêm Nhật Minh khen ngợi em đã hoàn thành rất tốt!'
           : 'Em hãy xem kỹ lời giải gợi ý và tiếp tục cố gắng ở bài tập tiếp theo nhé!',
     };
 
@@ -199,7 +199,7 @@ export const StudentPortal: React.FC = () => {
                 Chào em, {currentStudent.name}!
               </h1>
               <p className="text-xs text-amber-100 mt-1">
-                Lớp 5/3 • TH Kim Đồng (207 Nguyễn Trung Trực, P. Rạch Giá, An Giang) • GVCN: Thầy Diêm Nhật Minh (0917014180)
+                Lớp 5/3 • TH Kim Đồng (207 Nguyễn Trung Trực, P. Rạch Giá, An Giang) • GVCN: Cô Diêm Nhật Minh (0917014180)
               </p>
             </div>
           </div>
@@ -410,7 +410,7 @@ export const StudentPortal: React.FC = () => {
                   className="px-6 py-3 rounded-2xl bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs shadow-lg shadow-amber-500/25 transition-all flex items-center gap-2 cursor-pointer"
                 >
                   <Send className="w-4 h-4" />
-                  <span>NỘP BÀI LÊN THẦY MINH</span>
+                  <span>NỘP BÀI LÊN CÔ MINH</span>
                 </button>
               </div>
             </div>

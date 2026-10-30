@@ -250,12 +250,12 @@ export const AssignmentsTab: React.FC = () => {
               {/* Teacher Feedback input */}
               <div>
                 <label className="block font-bold text-slate-800 mb-1">
-                  Nhận xét & Lời khuyên sư phạm của Thầy Diêm Nhật Minh:
+                  Nhận xét & Lời khuyên sư phạm của Cô Diêm Nhật Minh:
                 </label>
                 <textarea
                   value={teacherFeedbackInput}
                   onChange={(e) => setTeacherFeedbackInput(e.target.value)}
-                  placeholder="Ví dụ: Em hãy chú ý giữ dấu phẩy thẳng cột khi đặt tính nhé. Thầy tin em sẽ làm tốt hơn ở bài tiếp theo!"
+                  placeholder="Ví dụ: Em hãy chú ý giữ dấu phẩy thẳng cột khi đặt tính nhé. Cô tin em sẽ làm tốt hơn ở bài tiếp theo!"
                   rows={3}
                   className="w-full p-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-500/20"
                 />

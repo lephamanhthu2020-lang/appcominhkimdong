@@ -20,7 +20,7 @@ export const AssistantTab: React.FC = () => {
   const [chatLog, setChatLog] = useState<{ role: 'user' | 'assistant'; text: string }[]>([
     {
       role: 'assistant',
-      text: 'Xin chào Thầy Diêm Nhật Minh! Em là Bạn La Bàn AI. Em đã được cấu hình tuân thủ quy tắc sư phạm: Không làm hộ bài tập cho học sinh, luôn đặt câu hỏi gợi mở và bảo vệ dữ liệu trẻ em theo chuẩn GDPT 2018.',
+      text: 'Xin chào Cô Diêm Nhật Minh! Em là Bạn La Bàn AI. Em đã được cấu hình tuân thủ quy tắc sư phạm: Không làm hộ bài tập cho học sinh, luôn đặt câu hỏi gợi mở và bảo vệ dữ liệu trẻ em theo chuẩn GDPT 2018.',
     },
   ]);
   const [loading, setLoading] = useState(false);
@@ -128,7 +128,7 @@ export const AssistantTab: React.FC = () => {
 
             <div className="p-3 bg-slate-50 rounded-xl border border-slate-200 flex items-start gap-2.5">
               <span className="w-5 h-5 rounded-full bg-blue-100 text-blue-700 font-bold flex items-center justify-center shrink-0 text-[10px]">4</span>
-              <p><strong>Cơ chế báo giáo viên:</strong> Khuyên học sinh trao đổi thêm với Thầy Diêm Nhật Minh khi gặp bế tắc.</p>
+              <p><strong>Cơ chế báo giáo viên:</strong> Khuyên học sinh trao đổi thêm với Cô Diêm Nhật Minh khi gặp bế tắc.</p>
             </div>
           </div>
 

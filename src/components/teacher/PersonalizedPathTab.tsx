@@ -219,7 +219,7 @@ export const PersonalizedPathTab: React.FC = () => {
             <div>
               <h4 className="text-xs font-bold text-slate-700 uppercase tracking-wider mb-3 flex items-center justify-between">
                 <span>Phê Duyệt / Điều Chỉnh Lộ Trình Cho Học Sinh (Quyền của Giáo Viên):</span>
-                <span className="text-[11px] text-slate-400 font-normal">Thầy Diêm Nhật Minh toàn quyền quyết định</span>
+                <span className="text-[11px] text-slate-400 font-normal">Cô Diêm Nhật Minh toàn quyền quyết định</span>
               </h4>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
